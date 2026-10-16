@@ -1,0 +1,30 @@
+/* 基础公共样式：清除默认样式 + 设置通用样式 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+body {
+  font: 14px/1.5 "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+  color: #333;
+  background-color: #f3f5f7;
+  /* 重点！给fixed固定导航栏预留空间，实验必须要有 */
+  padding-top: 110px;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+/* 新增：图片清除底部缝隙，项目需要 */
+img {
+  width: 100%;
+  display: block;
+}
+/* 新增：版心类 .wrapper，整个页面全部模块要用到 */
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
